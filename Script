@@ -55,7 +55,7 @@ local TRIGGER_WORD = "kick"
 
 -- Objects to search for
 local searchedObjects = {
-    "La Grande Combinasion","Tang Tang Keletang","Swag Soda","Nuclearo Dinossauro","Cooki and Milki",
+    "La Grande Combinasion","Trippi Troppi","Tang Tang Keletang","Swag Soda","Nuclearo Dinossauro","Cooki and Milki",
     "Esok Sekolah","Money Money Puggy","Ketupat Kepat","Tictac Sahur","Chicleteira Noelteira",
     "Ketchuru and Musturu","Garama and Madundung","Spaghetti Tualetti","La Ginger Sekolah",
     "Capitano Moby","La Secret Combinasion","Burguro And Fryuro","La Gingerbread Kepat",
